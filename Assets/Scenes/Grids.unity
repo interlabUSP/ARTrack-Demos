@@ -1099,7 +1099,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26588
+  m_Name: pb_Mesh41622
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1361,7 +1361,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27032
+  m_Name: pb_Mesh41662
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2827,13 +2827,13 @@ MonoBehaviour:
     y_inversor: 1
     z_inversor: 1
     Sensibilidade: 8
-    Limitar: 0
-    max_x: 4
-    min_x: -4
-    max_y: 2.5
-    min_y: -2.5
-    max_z: 4
-    min_z: -4
+    Limitar: 1
+    max_x: 3.7
+    min_x: -3.7
+    max_y: 5.2
+    min_y: 0.25
+    max_z: 30
+    min_z: -30
 --- !u!4 &1190958530
 Transform:
   m_ObjectHideFlags: 0
@@ -3407,7 +3407,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27768
+  m_Name: pb_Mesh41736
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
