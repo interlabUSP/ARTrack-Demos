@@ -106,7 +106,7 @@ public class SerialControle : MonoBehaviour
 
     private void Update()
     {
-         MovimentaCubo();
+        MovimentaCubo();
 
     }
 
@@ -118,10 +118,11 @@ public class SerialControle : MonoBehaviour
             if (json["success"].ToString() == "True")
             {
                 Infos_debug.text = receivedString;
+                GameObject.Find("Canvas").GetComponent<Botoes>().Conectou(true);
                 SalvaDadosJson();//Salva os dados recebidos
 
 
-                
+
 
 
                 if (uma_vez == false) // executa uma vez para o cubo nao ir longe
@@ -137,7 +138,7 @@ public class SerialControle : MonoBehaviour
                 //Translacao
                 Cubo.transform.Translate(new Vector3((newPositions[0] - oldPositions[0]) * config.x_inversor, (-newPositions[1] + oldPositions[1]) * config.y_inversor, (-newPositions[2] + oldPositions[2]) * config.z_inversor), Space.World);
 
-                if(config.Limitar)LimitesCubo();//Limites  de translacao do cubo
+                if (config.Limitar) LimitesCubo();//Limites  de translacao do cubo
 
                 //Rotacao 
                 Vector3 up = new Vector3(newPositions[6], newPositions[7], newPositions[8]);
@@ -155,6 +156,8 @@ public class SerialControle : MonoBehaviour
             }
             else
             {//Caso o cubo nao esteja sendoreconhecido
+                GameObject.Find("Canvas").GetComponent<Botoes>().Conectou(false);
+                uma_vez = true;//faz rodar denovo  quando desconeta
                 new_timestamp = json["timestamp"].ToString();
                 Infos_debug.text = "Nao Conectado " + new_timestamp;
                 /* TIMESPAN do sistema
