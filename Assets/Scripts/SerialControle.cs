@@ -157,7 +157,7 @@ public class SerialControle : MonoBehaviour
             else
             {//Caso o cubo nao esteja sendoreconhecido
                 GameObject.Find("Canvas").GetComponent<Botoes>().Conectou(false);
-                uma_vez = true;//faz rodar denovo  quando desconeta
+                //uma_vez = true;//faz rodar denovo  quando desconeta
                 new_timestamp = json["timestamp"].ToString();
                 Infos_debug.text = "Nao Conectado " + new_timestamp;
                 /* TIMESPAN do sistema
