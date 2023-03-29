@@ -118,11 +118,8 @@ public class SerialControleROT : MonoBehaviour
             if (json["success"].ToString() == "True")
             {
                 Infos_debug.text = receivedString;
+                GameObject.Find("Canvas").GetComponent<Botoes>().Conectou(true);
                 SalvaDadosJson();//Salva os dados recebidos
-
-
-                
-
 
                 if (uma_vez == false) // executa uma vez para o cubo nao ir longe
                 {
@@ -156,6 +153,7 @@ public class SerialControleROT : MonoBehaviour
             else
             {//Caso o cubo nao esteja sendoreconhecido
                 new_timestamp = json["timestamp"].ToString();
+                GameObject.Find("Canvas").GetComponent<Botoes>().Conectou(false);
                 Infos_debug.text = "Nao Conectado " + new_timestamp;
                 /* TIMESPAN do sistema
                 TimeSpan tempo = System.DateTime.Now.Subtract(System.DateTime.UnixEpoch);
