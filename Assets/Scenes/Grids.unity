@@ -1522,6 +1522,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592895109}
   m_Mesh: {fileID: 4300092, guid: 83e5ddd5977f64451bf5d8f291b767be, type: 3}
+--- !u!114 &598740566 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4486047214381884082, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+  m_PrefabInstance: {fileID: 1386523898}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &627558520
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,7 +2754,7 @@ MonoBehaviour:
   portData: 9000
   receiveBufferSize: 120000
   Cubo: {fileID: 193895578}
-  Infos_debug: {fileID: 0}
+  Infos_debug: {fileID: 598740566}
   config:
     x_inversor: -1
     y_inversor: 1
@@ -3369,6 +3380,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f9673ff87a08cd64b865c59d187553df, type: 3}
+    - target: {fileID: 4486047214381884080, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4486047214381884082, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
       propertyPath: m_Color.b
       value: 0.9622642
