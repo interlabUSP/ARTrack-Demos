@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Botoes : MonoBehaviour
 {
@@ -20,5 +21,9 @@ public class Botoes : MonoBehaviour
         } else{
             marcado.sprite = vermelho;
         }
+    }
+
+    public void TrocaCena(string cena){
+        SceneManager.LoadScene(cena);
     }
 }
