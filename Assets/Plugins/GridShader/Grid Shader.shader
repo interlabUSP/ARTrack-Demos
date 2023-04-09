@@ -3,7 +3,7 @@
    Properties
    {
       _MainColor("Main Color", Color) = (0.5, 1.0, 1.0)
-      _SecondaryColor("Secondary Color", Color) = (0.0, 0.0, 0.0)
+      _SecondaryColor("Secondary Color", Color) = (0.0, 0.0, 1.0)
       _BackgroundColor("Background Color", Color) = (0.0, 0.0, 0.0, 0.0)
       _MaskTexture("Texture", 2D) = "white" {}
 

@@ -42,6 +42,8 @@ public class SerialControle : MonoBehaviour
         [Header("Ajustes")]
         [SerializeField]
         public int Sensibilidade = 5;
+        public bool Rotacionar = true;
+        public bool Transladar = true;
         [Header("Limites")]
         [SerializeField]
         public bool Limitar = true;
@@ -75,6 +77,7 @@ public class SerialControle : MonoBehaviour
     string receivedString;
 
     public Configuracoes config;
+
     void Start()
     {
         ConectarUDP();
@@ -132,18 +135,20 @@ public class SerialControle : MonoBehaviour
                     oldPositions[2] = newPositions[2];
                     uma_vez = true;
                     UltimaPos = Cubo.transform.position;
+                    if (config.Rotacionar) { Rotacionar(true); }
                 }
 
 
                 //Translacao
-                Cubo.transform.Translate(new Vector3((newPositions[0] - oldPositions[0]) * config.x_inversor, (-newPositions[1] + oldPositions[1]) * config.y_inversor, (-newPositions[2] + oldPositions[2]) * config.z_inversor), Space.World);
+                if (config.Transladar) { Transladar(); }
+
 
                 if (config.Limitar) LimitesCubo();//Limites  de translacao do cubo
 
                 //Rotacao 
-                Vector3 up = new Vector3(newPositions[6], newPositions[7], newPositions[8]);
-                Vector3 forward = new Vector3(newPositions[9], newPositions[10], newPositions[11]);
-                Cubo.transform.localRotation = Quaternion.LookRotation(forward, up);
+
+                if (config.Rotacionar) { Rotacionar(false); }
+
 
 
                 //Salva posicoes antigas
@@ -157,7 +162,7 @@ public class SerialControle : MonoBehaviour
             else
             {//Caso o cubo nao esteja sendoreconhecido
                 GameObject.Find("Canvas").GetComponent<Botoes>().Conectou(false);
-                //uma_vez = true;//faz rodar denovo  quando desconeta
+                uma_vez = true;//faz rodar denovo  quando desconeta
                 new_timestamp = json["timestamp"].ToString();
                 Infos_debug.text = "Nao Conectado " + new_timestamp;
                 /* TIMESPAN do sistema
@@ -172,6 +177,48 @@ public class SerialControle : MonoBehaviour
         {
             Debug.Log(e);
         }
+    }
+
+    void Rotacionar(bool first)
+    {
+
+        float rot_min = 0.8f;
+        float rot_max = 400f;
+        Vector3 up = new Vector3(newPositions[6], newPositions[7], newPositions[8]);
+        Vector3 forward = new Vector3(newPositions[9], newPositions[10], newPositions[11]);
+
+        var variacao = Vector3.Distance(Cubo.transform.localRotation.eulerAngles, Quaternion.LookRotation(forward, up).eulerAngles);
+
+        //Debug.Log("ROT:"+variacao);
+        if (first)
+        {//primeira  vez
+            Cubo.transform.localRotation = Quaternion.LookRotation(forward, up);
+        }
+        else if (variacao > rot_min && variacao < rot_max)
+        {
+
+            Cubo.transform.localRotation = Quaternion.LookRotation(forward, up);
+            //Cubo.transform.localRotation = Quaternion.LookRotation(up, forward);
+        }
+
+
+    }
+
+    void Transladar()
+    {
+        float Dis_min = 0.07f;
+        float Dis_max = 0.6f;
+
+        Vector3 NextMov = new Vector3((newPositions[0] - oldPositions[0]) * config.x_inversor, (-newPositions[1] + oldPositions[1]) * config.y_inversor, (-newPositions[2] + oldPositions[2]) * config.z_inversor);
+
+        Vector3 NewCubo = Cubo.transform.position + NextMov;
+        var distancia = Vector3.Distance(Cubo.transform.position, NewCubo);
+        //Debug.Log("Trans:"+distancia);
+        if (distancia > Dis_min && distancia <= Dis_max)
+        {
+            Cubo.transform.Translate(NextMov, Space.World);
+        }
+
     }
 
     void LimitesCubo()

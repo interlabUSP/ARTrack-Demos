@@ -26,4 +26,9 @@ public class Botoes : MonoBehaviour
     public void TrocaCena(string cena){
         SceneManager.LoadScene(cena);
     }
+
+    public void AbrirSite(string site){
+        Application.OpenURL(site);
+    }
+
 }
