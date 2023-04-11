@@ -9,6 +9,7 @@ using System.IO;
 using UnityEngine.UI;
 using System;
 
+
 public class SerialControle : MonoBehaviour
 {
 
@@ -25,7 +26,7 @@ public class SerialControle : MonoBehaviour
     byte[] receivedBytes;
     ////////////////////////////////////////////
     float[] oldPositions = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };//x ,y, z - right - up - forward
-    float[] newPositions = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };//x ,y, z- right - up - forward
+     float[] newPositions = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };//x ,y, z- right - up - forward
     JObject json;
     bool uma_vez = false; //Saber quando o programa rodar na primeira vez
 
@@ -74,7 +75,7 @@ public class SerialControle : MonoBehaviour
 
 
     public Text Infos_debug; //Texto que mostra os dados recebidos do ar tracking
-    string receivedString;
+     string receivedString;
 
     public Configuracoes config;
 
@@ -214,6 +215,7 @@ public class SerialControle : MonoBehaviour
         Vector3 NewCubo = Cubo.transform.position + NextMov;
         var distancia = Vector3.Distance(Cubo.transform.position, NewCubo);
         //Debug.Log("Trans:"+distancia);
+        //Debug.Log(Cubo.transform.forward);
         if (distancia > Dis_min && distancia <= Dis_max)
         {
             Cubo.transform.Translate(NextMov, Space.World);
