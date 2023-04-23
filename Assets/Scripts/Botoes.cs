@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Botoes : MonoBehaviour
 {
+    static public bool Aviso=false;
     bool mostrando = false;
     public GameObject info;
     public Sprite verde, vermelho;
@@ -13,9 +14,22 @@ public class Botoes : MonoBehaviour
 
     public GameObject telaNormal;
     public GameObject telaAjuda;
+    public GameObject telaAviso;
     int Ajuda = 1;
 
 
+    void Start() {
+        if(!Aviso){
+            telaAviso.SetActive(true);
+            Aviso=true;
+        }else{
+            telaAviso.SetActive(false);
+        }
+    }
+
+    public void FechaAviso(){
+        telaAviso.SetActive(false);
+    }
 
     public void MostraInfs()
     {
@@ -64,14 +78,31 @@ public class Botoes : MonoBehaviour
 
     void TrocaFoto(int ant)
     {
-        Debug.Log(Ajuda);
+        //Debug.Log(Ajuda);
         GameObject.Find("a" + ant.ToString()).SetActive(false);//tira os anteriores
         GameObject.Find("b" + ant.ToString()).GetComponent<Image>().color = Color.white;//tira os anteriores
 
 
         GameObject.Find("b" + Ajuda.ToString()).GetComponent<Image>().color = Color.gray; ;
         FindInActiveObjectByName("a" + Ajuda.ToString()).SetActive(true);//Aparece os novos
-
+        if (ant == 1)
+        {
+            GameObject.Find("link1_1").SetActive(false);
+            GameObject.Find("link1").SetActive(false);
+        }
+        else if (Ajuda == 1)
+        {
+            FindInActiveObjectByName("link1_1").SetActive(true);
+            FindInActiveObjectByName("link1").SetActive(true);
+        }
+        else if (Ajuda == 3)
+        {
+            FindInActiveObjectByName("link3").SetActive(true);
+        }
+        else if (ant == 3)
+        {
+            GameObject.Find("link3").SetActive(false);
+        }
     }
 
     GameObject FindInActiveObjectByName(string name)
@@ -103,5 +134,10 @@ public class Botoes : MonoBehaviour
             telaNormal.SetActive(true);
             telaAjuda.SetActive(false);
         }
+    }
+
+    public void Fechar()
+    {
+        Application.Quit();
     }
 }

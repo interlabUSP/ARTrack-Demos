@@ -2760,6 +2760,8 @@ MonoBehaviour:
     y_inversor: 1
     z_inversor: 1
     Sensibilidade: 8
+    Rotacionar: 1
+    Transladar: 1
     Limitar: 1
     max_x: 3.7
     min_x: -3.7
@@ -3376,6 +3378,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1269474883675522245, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cc65237131e618a4fb7f8bf4652aee73, type: 3}
     - target: {fileID: 2411979562420812632, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3495,6 +3501,34 @@ PrefabInstance:
     - target: {fileID: 7224214695658126656, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: CenaObjs
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018685306127448794, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 889a3fc62c4cc1649b9150df7f35ae4b, type: 3}
+    - target: {fileID: 8018685306127448794, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018685306127448794, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018685306127448794, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8389317498471491778, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8389317498471491778, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8389317498471491778, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}

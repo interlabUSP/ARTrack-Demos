@@ -26,7 +26,7 @@ public class SerialControle : MonoBehaviour
     byte[] receivedBytes;
     ////////////////////////////////////////////
     float[] oldPositions = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };//x ,y, z - right - up - forward
-     float[] newPositions = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };//x ,y, z- right - up - forward
+    float[] newPositions = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };//x ,y, z- right - up - forward
     JObject json;
     bool uma_vez = false; //Saber quando o programa rodar na primeira vez
 
@@ -75,7 +75,7 @@ public class SerialControle : MonoBehaviour
 
 
     public Text Infos_debug; //Texto que mostra os dados recebidos do ar tracking
-     string receivedString;
+    string receivedString;
 
     public Configuracoes config;
 
