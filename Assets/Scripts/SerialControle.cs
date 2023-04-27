@@ -103,8 +103,6 @@ public class SerialControle : MonoBehaviour
         receivedString = Encoding.ASCII.GetString(receiveBytes);
         json = JObject.Parse(receivedString);
         clientData.BeginReceive(AC, obj);
-
-
     }
 
 

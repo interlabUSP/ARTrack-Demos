@@ -544,6 +544,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2781034936483943251, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989038326032047218, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4486047214381884080, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -648,6 +656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4910489686498920524, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6632121469637966251, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: CenaObjs
@@ -675,6 +687,7 @@ GameObject:
   - component: {fileID: 1857993993}
   - component: {fileID: 1857993992}
   - component: {fileID: 1857993996}
+  - component: {fileID: 1857993997}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -739,13 +752,41 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857993991}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 748b0a049633c534792d9caec20dd662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   portData: 9000
   receiveBufferSize: 120000
+  Cubo: {fileID: 729371969}
+  Infos_debug: {fileID: 399721049}
+  config:
+    x_inversor: 1
+    y_inversor: 1
+    z_inversor: 1
+    Sensibilidade: 5
+    Rotacionar: 1
+    Transladar: 0
+    Limitar: 0
+    max_x: 4
+    min_x: -4
+    max_y: 2.5
+    min_y: -2.5
+    max_z: 4
+    min_z: -4
+--- !u!114 &1857993997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857993991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ef127c36167634d8cfb0b1d61db436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   Cubo: {fileID: 729371969}
   Infos_debug: {fileID: 399721049}
   config:

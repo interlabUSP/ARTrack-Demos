@@ -2730,6 +2730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1190958530}
   - component: {fileID: 1190958529}
+  - component: {fileID: 1190958533}
   - component: {fileID: 1190958532}
   - component: {fileID: 1190958531}
   m_Layer: 0
@@ -2746,7 +2747,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190958528}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 748b0a049633c534792d9caec20dd662, type: 3}
   m_Name: 
@@ -2819,6 +2820,34 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!114 &1190958533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190958528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ef127c36167634d8cfb0b1d61db436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cubo: {fileID: 193895578}
+  Infos_debug: {fileID: 598740566}
+  config:
+    x_inversor: -1
+    y_inversor: 1
+    z_inversor: 1
+    Sensibilidade: 8
+    Rotacionar: 1
+    Transladar: 1
+    Limitar: 1
+    max_x: 3.7
+    min_x: -3.7
+    max_y: 5.2
+    min_y: 0.25
+    max_z: 30
+    min_z: -30
 --- !u!1 &1211539924
 GameObject:
   m_ObjectHideFlags: 0
@@ -3489,6 +3518,10 @@ PrefabInstance:
     - target: {fileID: 4486047214717813129, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486047214717813129, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6632121469637966251, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
