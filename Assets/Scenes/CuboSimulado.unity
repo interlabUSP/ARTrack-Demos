@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 327705333}
   - component: {fileID: 327705334}
   - component: {fileID: 327705335}
+  - component: {fileID: 327705336}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -150,7 +151,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327705330}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 748b0a049633c534792d9caec20dd662, type: 3}
   m_Name: 
@@ -240,6 +241,34 @@ MonoBehaviour:
   distanceToTarget: 15
   Min: 0.16
   Max: 15
+--- !u!114 &327705336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327705330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ef127c36167634d8cfb0b1d61db436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cubo: {fileID: 1563930819}
+  Infos_debug: {fileID: 1643787768}
+  config:
+    x_inversor: -1
+    y_inversor: 1
+    z_inversor: -1
+    Sensibilidade: 3
+    Rotacionar: 1
+    Transladar: 1
+    Limitar: 1
+    max_x: 13
+    min_x: -13
+    max_y: 10
+    min_y: 1
+    max_z: 10
+    min_z: -10
 --- !u!4 &491525506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4768913826991000823, guid: a85f78d2e59b1244cb08f516841e3446, type: 3}

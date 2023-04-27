@@ -43,14 +43,14 @@ public class conectarAR : MonoBehaviour
         receivedBytes = clientData.EndReceive(result, ref ipEndPointData);
         byte[] receiveBytes = clientData.Receive(ref ipEndPointData);
         receivedString = Encoding.ASCII.GetString(receiveBytes);
-        
+        clientData.BeginReceive(AC, obj);
         if (receivedString != null)
         {
             conected = true;
         }else{
             conected = false;
         }
-        clientData.BeginReceive(AC, obj);
+        
     }
 
 

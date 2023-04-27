@@ -19,11 +19,15 @@ public class Botoes : MonoBehaviour
 
 
     void Start() {
+        try{
         if(!Aviso){
             telaAviso.SetActive(true);
             Aviso=true;
         }else{
             telaAviso.SetActive(false);
+        }
+        } catch  (System.Exception e){
+
         }
     }
 
