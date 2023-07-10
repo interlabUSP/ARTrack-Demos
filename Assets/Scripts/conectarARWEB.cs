@@ -5,25 +5,25 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using UnityEngine.UI;
-
+using UnityEngine.Localization.Settings;
 public class conectarARWEB : MonoBehaviour
 {
     bool pontos = false;
     public Text Conectado;
     public Text Abra;
     bool conected = false;
-    void Start()
+
+    void MovimentaCuboWEB(string data)
     {
-        
-    }
-    
-void MovimentaCuboWEB(string data){
-    if(data!=null){
-        conected = true;
-        }else{
+        if (data != null)
+        {
+            conected = true;
+        }
+        else
+        {
             conected = false;
         }
-}
+    }
 
     void Update()
     {
@@ -36,10 +36,12 @@ void MovimentaCuboWEB(string data){
         if (conected)
         {
             Conectado.text = "";
-            Abra.text = "AR Tracking\n conectado!";
+            Abra.text = LocalizationSettings.StringDatabase.GetLocalizedString("stringsLocalization", "abertoAR");//"AR Tracking\n conectado!";
             Abra.color = Color.green;
-        }else{
-            Abra.text = "Abra o\n AR Tracking";
+        }
+        else
+        {
+            Abra.text = LocalizationSettings.StringDatabase.GetLocalizedString("stringsLocalization", "abraAR");//"Abra o\n AR Tracking";
             Abra.color = Color.red;
         }
     }

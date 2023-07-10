@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Localization.Settings;
 
 public class Botoes : MonoBehaviour
 {
-    static public bool Aviso=false;
+    static public bool Aviso = false;
     bool mostrando = false;
     public GameObject info;
     public Sprite verde, vermelho;
@@ -18,20 +19,30 @@ public class Botoes : MonoBehaviour
     int Ajuda = 1;
 
 
-    void Start() {
-        try{
-        if(!Aviso){
-            telaAviso.SetActive(true);
-            Aviso=true;
-        }else{
-            telaAviso.SetActive(false);
+    void Start()
+    {
+        try
+        {
+            if (!Aviso)
+            {
+                telaAviso.SetActive(true);
+                Aviso = true;
+            }
+            else
+            {
+                telaAviso.SetActive(false);
+            }
         }
-        } catch  (System.Exception e){
+        catch (System.Exception e)
+        {
 
         }
     }
 
-    public void FechaAviso(){
+
+
+    public void FechaAviso()
+    {
         telaAviso.SetActive(false);
     }
 
@@ -77,6 +88,19 @@ public class Botoes : MonoBehaviour
         }
 
         TrocaFoto(ajAnterior);
+
+    }
+
+    public void TrocaLingua()
+    {
+        if (LocalizationSettings.SelectedLocale.Identifier == "pt-BR")
+        {
+            LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[0];
+        }
+        else if (LocalizationSettings.SelectedLocale.Identifier == "en")
+        {
+            LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
+        }
 
     }
 

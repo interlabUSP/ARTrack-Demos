@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: assets Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: assets
+  m_TableCollectionNameGuidString: 0963f342039c5524eb153004bcd8ff07
+  m_Entries:
+  - m_Id: 2695296741376
+    m_Key: aviso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3712839086080
+    m_Key: perspectiva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3836474585088
+    m_Key: simulador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4106759729152
+    m_Key: ajuda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4577218031616
+    m_Key: help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4681454874624
+    m_Key: voltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7023348707328
+    m_Key: a1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7146950651904
+    m_Key: a2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7240462659584
+    m_Key: a3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7311908433920
+    m_Key: a4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10873761722368
+    m_Key: linguagem
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 8894171901025583161
+  m_KeyGenerator:
+    rid: 8894171901025583159
+  references:
+    version: 2
+    RefIds:
+    - rid: 8894171901025583159
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1689010625085
+    - rid: 8894171901025583161
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 2695296741376
+          m_TableCodes:
+          - pt-BR
+          - en
+        - m_KeyId: 3712839086080
+          m_TableCodes:
+          - en
+          - pt-BR
+        - m_KeyId: 3836474585088
+          m_TableCodes:
+          - pt-BR
+          - en
+        - m_KeyId: 4106759729152
+          m_TableCodes:
+          - en
+          - pt-BR
+        - m_KeyId: 4577218031616
+          m_TableCodes:
+          - en
+          - pt-BR
+        - m_KeyId: 4681454874624
+          m_TableCodes:
+          - pt-BR
+          - en
+        - m_KeyId: 7023348707328
+          m_TableCodes:
+          - en
+          - pt-BR
+        - m_KeyId: 7146950651904
+          m_TableCodes:
+          - pt-BR
+          - en
+        - m_KeyId: 7240462659584
+          m_TableCodes:
+          - pt-BR
+          - en
+        - m_KeyId: 7311908433920
+          m_TableCodes:
+          - pt-BR
+          - en
+        - m_KeyId: 10873761722368
+          m_TableCodes:
+          - pt-BR
+          - en
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null

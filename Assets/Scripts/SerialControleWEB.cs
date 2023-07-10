@@ -140,8 +140,8 @@ public class SerialControleWEB : MonoBehaviour
     void Rotacionar(bool first)
     {
 
-        float rot_min = 0.8f;
-        float rot_max = 400f;
+        float rot_min = 1f;
+        float rot_max = 1000f;
         Vector3 up = new Vector3(newPositions[6], newPositions[7], newPositions[8]);
         Vector3 forward = new Vector3(newPositions[9], newPositions[10], newPositions[11]);
 

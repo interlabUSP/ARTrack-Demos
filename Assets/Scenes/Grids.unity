@@ -3523,6 +3523,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4858926694006665016, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6632121469637966251, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: CuboSimulado

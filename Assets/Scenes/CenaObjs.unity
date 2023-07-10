@@ -1090,7 +1090,7 @@ MonoBehaviour:
     x_inversor: -1
     y_inversor: 1
     z_inversor: 1
-    Sensibilidade: 4
+    Sensibilidade: 8
     Rotacionar: 1
     Transladar: 1
     Limitar: 0

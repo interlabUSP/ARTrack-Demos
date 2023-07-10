@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Portuguese (Brazil) (pt-BR)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Portuguese (Brazil) (pt-BR)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 76a632fb042662941a48a8a829e21bfa
+  m_SerializeEntries:
+  - m_GUID: 3e3ef5e312981ef47907de60a0e6da0a
+    m_Address: aviso camera
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: 8c28bc633a6293a4e82c47c2e9409e9c
+    m_Address: sombras
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: fa297354099b3cb4a8d966ef24fcf4ed
+    m_Address: simulador
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: d7e1ae52db0a22840b02afae0a290433
+    m_Address: ajuda
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: a9bf2f5d6d7353241970427a2394ff18
+    m_Address: AJUDA
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: 9e6bd3c6a5b54144694f8e38007e130e
+    m_Address: voltar
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: 9d6413ac876a7e54892729935763ed45
+    m_Address: PG1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: 7f3d49afc6852004bb28660e7948605d
+    m_Address: PG2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: c25ca288509d38c4b80c4069c23bcef3
+    m_Address: PG3
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: 7cab5f5811bb6a247b3a4fcd8798da69
+    m_Address: PG4
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  - m_GUID: 9c53985427fa89b48945e5d6e7885734
+    m_Address: us
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 676a2ed378e032b4492b620540964e43, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7a3657f8d470ee44c9d6173926ac7089, type: 2}
+    - {fileID: 11400000, guid: 10e327daf4abb8d4bb1e69d7d4be6b75, type: 2}
