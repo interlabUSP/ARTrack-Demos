@@ -31,6 +31,10 @@ MonoBehaviour:
     m_Key: lingua
     m_Metadata:
       m_Items: []
+  - m_Id: 3717405816942592
+    m_Key: lbl_dlw
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
