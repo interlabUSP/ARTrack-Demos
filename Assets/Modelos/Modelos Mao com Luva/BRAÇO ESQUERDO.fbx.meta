@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 4c502a9263eff274dabdeacc0b7a7db3
+timeCreated: 1542909072
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature.001
+    100002: Bip01 R Finger0
+    100004: Bip01 R Finger01
+    100006: Bip01 R Finger02
+    100008: Bip01 R Finger02_end
+    100010: Bip01 R Finger043
+    100012: Bip01 R Finger044
+    100014: Bip01 R Finger045
+    100016: Bip01 R Finger045_end
+    100018: Bip01 R Finger046
+    100020: Bip01 R Finger047
+    100022: Bip01 R Finger048
+    100024: Bip01 R Finger048_end
+    100026: Bip01 R Finger049
+    100028: Bip01 R Finger050
+    100030: Bip01 R Finger051
+    100032: Bip01 R Finger051_end
+    100034: Bip01 R Finger052
+    100036: Bip01 R Finger053
+    100038: Bip01 R Finger054
+    100040: Bip01 R Finger054_end
+    100042: Bip01 R Finger055
+    100044: Bip01 R Finger056
+    100046: Bip01 R Finger057
+    100048: Bip01 R Finger057_end
+    100050: Bip01 R Finger1
+    100052: Bip01 R Finger11
+    100054: Bip01 R Finger12
+    100056: Bip01 R Finger12_end
+    100058: Bip01 R Finger2
+    100060: Bip01 R Finger21
+    100062: Bip01 R Finger22
+    100064: Bip01 R Finger22_end
+    100066: Bip01 R Finger3
+    100068: Bip01 R Finger31
+    100070: Bip01 R Finger32
+    100072: Bip01 R Finger32_end
+    100074: Bip01 R Finger4
+    100076: Bip01 R Finger41
+    100078: Bip01 R Finger42
+    100080: Bip01 R Finger42_end
+    100082: Bip01 R Forearm
+    100084: Bip01 R Forearm001
+    100086: Bip01 R ForeTwist
+    100088: Bip01 R ForeTwist005
+    100090: Bip01 R ForeTwist006
+    100092: Bip01 R ForeTwist007
+    100094: Bip01 R ForeTwist008
+    100096: Bip01 R ForeTwist009
+    100098: Bip01 R ForeTwist1
+    100100: Bip01 R ForeTwist2
+    100102: Bip01 R ForeTwist3
+    100104: Bip01 R ForeTwist4
+    100106: Bip01 R Hand
+    100108: Bip01 R Hand001
+    100110: //RootNode
+    100112: male_arm_right.001
+    400000: Armature.001
+    400002: Bip01 R Finger0
+    400004: Bip01 R Finger01
+    400006: Bip01 R Finger02
+    400008: Bip01 R Finger02_end
+    400010: Bip01 R Finger043
+    400012: Bip01 R Finger044
+    400014: Bip01 R Finger045
+    400016: Bip01 R Finger045_end
+    400018: Bip01 R Finger046
+    400020: Bip01 R Finger047
+    400022: Bip01 R Finger048
+    400024: Bip01 R Finger048_end
+    400026: Bip01 R Finger049
+    400028: Bip01 R Finger050
+    400030: Bip01 R Finger051
+    400032: Bip01 R Finger051_end
+    400034: Bip01 R Finger052
+    400036: Bip01 R Finger053
+    400038: Bip01 R Finger054
+    400040: Bip01 R Finger054_end
+    400042: Bip01 R Finger055
+    400044: Bip01 R Finger056
+    400046: Bip01 R Finger057
+    400048: Bip01 R Finger057_end
+    400050: Bip01 R Finger1
+    400052: Bip01 R Finger11
+    400054: Bip01 R Finger12
+    400056: Bip01 R Finger12_end
+    400058: Bip01 R Finger2
+    400060: Bip01 R Finger21
+    400062: Bip01 R Finger22
+    400064: Bip01 R Finger22_end
+    400066: Bip01 R Finger3
+    400068: Bip01 R Finger31
+    400070: Bip01 R Finger32
+    400072: Bip01 R Finger32_end
+    400074: Bip01 R Finger4
+    400076: Bip01 R Finger41
+    400078: Bip01 R Finger42
+    400080: Bip01 R Finger42_end
+    400082: Bip01 R Forearm
+    400084: Bip01 R Forearm001
+    400086: Bip01 R ForeTwist
+    400088: Bip01 R ForeTwist005
+    400090: Bip01 R ForeTwist006
+    400092: Bip01 R ForeTwist007
+    400094: Bip01 R ForeTwist008
+    400096: Bip01 R ForeTwist009
+    400098: Bip01 R ForeTwist1
+    400100: Bip01 R ForeTwist2
+    400102: Bip01 R ForeTwist3
+    400104: Bip01 R ForeTwist4
+    400106: Bip01 R Hand
+    400108: Bip01 R Hand001
+    400110: //RootNode
+    400112: male_arm_right.001
+    4300000: male_arm_right.001
+    9500000: //RootNode
+    13700000: male_arm_right.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

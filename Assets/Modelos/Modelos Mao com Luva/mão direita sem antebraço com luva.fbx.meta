@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: db464e5d0e0fc5241ab1e084e5d88aa2
+timeCreated: 1542902402
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bip01 R Finger0
+    100004: Bip01 R Finger01
+    100006: Bip01 R Finger02
+    100008: Bip01 R Finger02_end
+    100010: Bip01 R Finger02_end_end
+    100012: Bip01 R Finger02_end_end_end
+    100014: Bip01 R Finger02_end_end_end_end
+    100016: Bip01 R Finger043
+    100018: Bip01 R Finger044
+    100020: Bip01 R Finger045
+    100022: Bip01 R Finger045_end
+    100024: Bip01 R Finger045_end_end
+    100026: Bip01 R Finger045_end_end_end
+    100028: Bip01 R Finger046
+    100030: Bip01 R Finger047
+    100032: Bip01 R Finger048
+    100034: Bip01 R Finger048_end
+    100036: Bip01 R Finger048_end_end
+    100038: Bip01 R Finger048_end_end_end
+    100040: Bip01 R Finger049
+    100042: Bip01 R Finger050
+    100044: Bip01 R Finger051
+    100046: Bip01 R Finger051_end
+    100048: Bip01 R Finger051_end_end
+    100050: Bip01 R Finger051_end_end_end
+    100052: Bip01 R Finger052
+    100054: Bip01 R Finger053
+    100056: Bip01 R Finger054
+    100058: Bip01 R Finger054_end
+    100060: Bip01 R Finger054_end_end
+    100062: Bip01 R Finger054_end_end_end
+    100064: Bip01 R Finger055
+    100066: Bip01 R Finger056
+    100068: Bip01 R Finger057
+    100070: Bip01 R Finger057_end
+    100072: Bip01 R Finger057_end_end
+    100074: Bip01 R Finger057_end_end_end
+    100076: Bip01 R Finger1
+    100078: Bip01 R Finger11
+    100080: Bip01 R Finger12
+    100082: Bip01 R Finger12_end
+    100084: Bip01 R Finger12_end_end
+    100086: Bip01 R Finger12_end_end_end
+    100088: Bip01 R Finger12_end_end_end_end
+    100090: Bip01 R Finger2
+    100092: Bip01 R Finger21
+    100094: Bip01 R Finger22
+    100096: Bip01 R Finger22_end
+    100098: Bip01 R Finger22_end_end
+    100100: Bip01 R Finger22_end_end_end
+    100102: Bip01 R Finger22_end_end_end_end
+    100104: Bip01 R Finger3
+    100106: Bip01 R Finger31
+    100108: Bip01 R Finger32
+    100110: Bip01 R Finger32_end
+    100112: Bip01 R Finger32_end_end
+    100114: Bip01 R Finger32_end_end_end
+    100116: Bip01 R Finger32_end_end_end_end
+    100118: Bip01 R Finger4
+    100120: Bip01 R Finger41
+    100122: Bip01 R Finger42
+    100124: Bip01 R Finger42_end
+    100126: Bip01 R Finger42_end_end
+    100128: Bip01 R Finger42_end_end_end
+    100130: Bip01 R Finger42_end_end_end_end
+    100132: Bip01 R Forearm
+    100134: Bip01 R Forearm001
+    100136: Bip01 R ForeTwist
+    100138: Bip01 R ForeTwist005
+    100140: Bip01 R ForeTwist006
+    100142: Bip01 R ForeTwist007
+    100144: Bip01 R ForeTwist008
+    100146: Bip01 R ForeTwist009
+    100148: Bip01 R ForeTwist1
+    100150: Bip01 R ForeTwist2
+    100152: Bip01 R ForeTwist3
+    100154: Bip01 R ForeTwist4
+    100156: Bip01 R Hand
+    100158: Bip01 R Hand001
+    100160: Camera
+    100162: Lamp
+    100164: male_arm_right
+    100166: //RootNode
+    400000: Armature
+    400002: Bip01 R Finger0
+    400004: Bip01 R Finger01
+    400006: Bip01 R Finger02
+    400008: Bip01 R Finger02_end
+    400010: Bip01 R Finger02_end_end
+    400012: Bip01 R Finger02_end_end_end
+    400014: Bip01 R Finger02_end_end_end_end
+    400016: Bip01 R Finger043
+    400018: Bip01 R Finger044
+    400020: Bip01 R Finger045
+    400022: Bip01 R Finger045_end
+    400024: Bip01 R Finger045_end_end
+    400026: Bip01 R Finger045_end_end_end
+    400028: Bip01 R Finger046
+    400030: Bip01 R Finger047
+    400032: Bip01 R Finger048
+    400034: Bip01 R Finger048_end
+    400036: Bip01 R Finger048_end_end
+    400038: Bip01 R Finger048_end_end_end
+    400040: Bip01 R Finger049
+    400042: Bip01 R Finger050
+    400044: Bip01 R Finger051
+    400046: Bip01 R Finger051_end
+    400048: Bip01 R Finger051_end_end
+    400050: Bip01 R Finger051_end_end_end
+    400052: Bip01 R Finger052
+    400054: Bip01 R Finger053
+    400056: Bip01 R Finger054
+    400058: Bip01 R Finger054_end
+    400060: Bip01 R Finger054_end_end
+    400062: Bip01 R Finger054_end_end_end
+    400064: Bip01 R Finger055
+    400066: Bip01 R Finger056
+    400068: Bip01 R Finger057
+    400070: Bip01 R Finger057_end
+    400072: Bip01 R Finger057_end_end
+    400074: Bip01 R Finger057_end_end_end
+    400076: Bip01 R Finger1
+    400078: Bip01 R Finger11
+    400080: Bip01 R Finger12
+    400082: Bip01 R Finger12_end
+    400084: Bip01 R Finger12_end_end
+    400086: Bip01 R Finger12_end_end_end
+    400088: Bip01 R Finger12_end_end_end_end
+    400090: Bip01 R Finger2
+    400092: Bip01 R Finger21
+    400094: Bip01 R Finger22
+    400096: Bip01 R Finger22_end
+    400098: Bip01 R Finger22_end_end
+    400100: Bip01 R Finger22_end_end_end
+    400102: Bip01 R Finger22_end_end_end_end
+    400104: Bip01 R Finger3
+    400106: Bip01 R Finger31
+    400108: Bip01 R Finger32
+    400110: Bip01 R Finger32_end
+    400112: Bip01 R Finger32_end_end
+    400114: Bip01 R Finger32_end_end_end
+    400116: Bip01 R Finger32_end_end_end_end
+    400118: Bip01 R Finger4
+    400120: Bip01 R Finger41
+    400122: Bip01 R Finger42
+    400124: Bip01 R Finger42_end
+    400126: Bip01 R Finger42_end_end
+    400128: Bip01 R Finger42_end_end_end
+    400130: Bip01 R Finger42_end_end_end_end
+    400132: Bip01 R Forearm
+    400134: Bip01 R Forearm001
+    400136: Bip01 R ForeTwist
+    400138: Bip01 R ForeTwist005
+    400140: Bip01 R ForeTwist006
+    400142: Bip01 R ForeTwist007
+    400144: Bip01 R ForeTwist008
+    400146: Bip01 R ForeTwist009
+    400148: Bip01 R ForeTwist1
+    400150: Bip01 R ForeTwist2
+    400152: Bip01 R ForeTwist3
+    400154: Bip01 R ForeTwist4
+    400156: Bip01 R Hand
+    400158: Bip01 R Hand001
+    400160: Camera
+    400162: Lamp
+    400164: male_arm_right
+    400166: //RootNode
+    4300000: male_arm_right
+    9500000: //RootNode
+    13700000: male_arm_right
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

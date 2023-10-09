@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: d54dc56830912b9479868664c5f2315f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Group14408
+    100004: Group16258
+    100006: Group16258_MeshPart0
+    100008: Group16258_MeshPart1
+    100010: Group16258_MeshPart2
+    100012: Group16258_MeshPart3
+    100014: Group16258_MeshPart4
+    100016: Group16258_MeshPart5
+    100018: Group30280
+    100020: Group32226
+    100022: Group32226_MeshPart0
+    100024: Group32226_MeshPart1
+    100026: Group32231
+    100028: Group46151
+    100030: Group48197
+    100032: Group62021
+    100034: Group64071
+    400000: //RootNode
+    400002: Group14408
+    400004: Group16258
+    400006: Group16258_MeshPart0
+    400008: Group16258_MeshPart1
+    400010: Group16258_MeshPart2
+    400012: Group16258_MeshPart3
+    400014: Group16258_MeshPart4
+    400016: Group16258_MeshPart5
+    400018: Group30280
+    400020: Group32226
+    400022: Group32226_MeshPart0
+    400024: Group32226_MeshPart1
+    400026: Group32231
+    400028: Group46151
+    400030: Group48197
+    400032: Group62021
+    400034: Group64071
+    2300000: Group14408
+    2300002: Group16258_MeshPart0
+    2300004: Group16258_MeshPart1
+    2300006: Group16258_MeshPart2
+    2300008: Group16258_MeshPart3
+    2300010: Group16258_MeshPart4
+    2300012: Group16258_MeshPart5
+    2300014: Group30280
+    2300016: Group32226_MeshPart0
+    2300018: Group32226_MeshPart1
+    2300020: Group32231
+    2300022: Group46151
+    2300024: Group48197
+    2300026: Group62021
+    2300028: Group64071
+    3300000: Group14408
+    3300002: Group16258_MeshPart0
+    3300004: Group16258_MeshPart1
+    3300006: Group16258_MeshPart2
+    3300008: Group16258_MeshPart3
+    3300010: Group16258_MeshPart4
+    3300012: Group16258_MeshPart5
+    3300014: Group30280
+    3300016: Group32226_MeshPart0
+    3300018: Group32226_MeshPart1
+    3300020: Group32231
+    3300022: Group46151
+    3300024: Group48197
+    3300026: Group62021
+    3300028: Group64071
+    4300000: Group14408
+    4300002: Group16258_MeshPart0
+    4300004: Group16258_MeshPart1
+    4300006: Group16258_MeshPart2
+    4300008: Group16258_MeshPart3
+    4300010: Group16258_MeshPart4
+    4300012: Group16258_MeshPart5
+    4300014: Group30280
+    4300016: Group32226_MeshPart0
+    4300018: Group32226_MeshPart1
+    4300020: Group32231
+    4300022: Group46151
+    4300024: Group48197
+    4300026: Group62021
+    4300028: Group64071
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Group14408Mat
+    second: {fileID: 2100000, guid: 92acae1d0b5199d4ead3ddc1411d4161, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Group16258Mat
+    second: {fileID: 2100000, guid: 9ee49fc23572ca242be4a2adc04d4b53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Group30280Mat
+    second: {fileID: 2100000, guid: 9777decf13c4d3e4c9eacdb9fc06b33f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Group32226Mat
+    second: {fileID: 2100000, guid: 1acde29d373efe042ba38194dc6598d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Group32231Mat
+    second: {fileID: 2100000, guid: 57ca2e195d12f394495f8704e84de636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Group46151Mat
+    second: {fileID: 2100000, guid: 38ffe65c869e55349b0c8573b627970f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Group48197Mat
+    second: {fileID: 2100000, guid: 1b3b4f17f313a7d48bc8bddd98ba8394, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Group62021Mat
+    second: {fileID: 2100000, guid: 45ae89cae92decd4693b848b57035195, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Group64071Mat
+    second: {fileID: 2100000, guid: 1d4d5e0de0dd56d48a76febbd465b928, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
