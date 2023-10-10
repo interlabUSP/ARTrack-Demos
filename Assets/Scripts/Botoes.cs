@@ -7,7 +7,7 @@ using UnityEngine.Localization.Settings;
 
 public class Botoes : MonoBehaviour
 {
-    static public bool Aviso = false;
+    static public bool Aviso = true;
     bool mostrando = false;
     public GameObject info;
     public Sprite verde, vermelho;
