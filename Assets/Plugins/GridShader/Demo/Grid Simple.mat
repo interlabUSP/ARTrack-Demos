@@ -80,7 +80,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GraduationScale: -3.16
+    - _GraduationScale: -4.5
     - _Length: 0.24
     - _Metallic: 0
     - _Mode: 0
@@ -89,12 +89,12 @@ Material:
     - _Opacity: 0.853
     - _Parallax: 0.02
     - _Quadify: 1
-    - _Scale: 9.24
-    - _SecondaryFadeInSpeed: 1.91
+    - _Scale: 5.44
+    - _SecondaryFadeInSpeed: 4
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Thickness: 0.00291
+    - _Thickness: 0.00229
     - _UVSec: 0
     - _VertexNormals: 1
     - _VertexNormalsLength: 0.21
