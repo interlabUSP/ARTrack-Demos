@@ -206,8 +206,8 @@ public class SerialControle : MonoBehaviour
 
     void Transladar()
     {
-        float Dis_min = 0f;//0.07f;
-        float Dis_max = 2.0f;//0.6f;
+        float Dis_min = 0.07f;//0.07f;
+        float Dis_max = 0.6f;//0.6f;
 
         Vector3 NextMov = new Vector3((newPositions[0] - oldPositions[0]) * config.x_inversor, (-newPositions[1] + oldPositions[1]) * config.y_inversor, (-newPositions[2] + oldPositions[2]) * config.z_inversor);
 
