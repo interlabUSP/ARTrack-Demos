@@ -43,6 +43,7 @@ public class SerialControle : MonoBehaviour
         [Header("Ajustes")]
         [SerializeField]
         public int Sensibilidade = 5;
+        public int Sensibilidade_z = 5;
         public bool Rotacionar = true;
         public bool Transladar = true;
         [Header("Limites")]
@@ -205,8 +206,8 @@ public class SerialControle : MonoBehaviour
 
     void Transladar()
     {
-        float Dis_min = 0.07f;
-        float Dis_max = 0.6f;
+        float Dis_min = 0.07f;//0.07f;
+        float Dis_max = 0.6f;//0.6f;
 
         Vector3 NextMov = new Vector3((newPositions[0] - oldPositions[0]) * config.x_inversor, (-newPositions[1] + oldPositions[1]) * config.y_inversor, (-newPositions[2] + oldPositions[2]) * config.z_inversor);
 
@@ -240,7 +241,7 @@ public class SerialControle : MonoBehaviour
     {
         newPositions[0] = float.Parse(json["translation_x"].ToString()) / config.Sensibilidade;
         newPositions[1] = float.Parse(json["translation_y"].ToString()) / config.Sensibilidade;
-        newPositions[2] = float.Parse(json["translation_z"].ToString()) / config.Sensibilidade;
+        newPositions[2] = float.Parse(json["translation_z"].ToString()) / config.Sensibilidade_z;//config.Sensibilidade;
         newPositions[6] = float.Parse(json["rotation_up_x"].ToString());
         newPositions[7] = float.Parse(json["rotation_up_y"].ToString());
         newPositions[8] = float.Parse(json["rotation_up_z"].ToString());
