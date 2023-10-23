@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: Language
     m_Metadata:
       m_Items: []
+  - m_Id: 3717405816942592
+    m_Localized: ' Download executable version'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

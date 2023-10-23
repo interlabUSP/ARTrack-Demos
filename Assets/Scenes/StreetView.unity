@@ -568,6 +568,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4486047214717813124, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 729371971}
     - target: {fileID: 4486047214717813125, guid: 75cdf2f1275845c4591c0c1c40b4ad96, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -752,7 +756,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857993991}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 748b0a049633c534792d9caec20dd662, type: 3}
   m_Name: 
@@ -782,7 +786,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857993991}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05ef127c36167634d8cfb0b1d61db436, type: 3}
   m_Name: 

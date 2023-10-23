@@ -17,6 +17,8 @@ public class Botoes : MonoBehaviour
     public GameObject telaAjuda;
     public GameObject telaAviso;
     int Ajuda = 1;
+    public Camera cam;
+    private Vector3 previousPosition;
 
 
     void Start()
@@ -39,7 +41,30 @@ public class Botoes : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (mostrando)
+        {
+            if (Input.GetMouseButtonDown(1))
+            {
+                previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
+            }
+            else if (Input.GetMouseButton(1))
+            {
 
+
+                Vector3 newPosition = cam.ScreenToViewportPoint(Input.mousePosition);
+                Vector3 direction = previousPosition - newPosition;
+
+                float rotationAroundYAxis = -direction.x * 180; // camera moves horizontally
+                float rotationAroundXAxis = direction.y * 180; // camera moves vertically
+
+                cam.transform.Rotate(new Vector3(1, 0, 0), rotationAroundXAxis);
+                cam.transform.Rotate(new Vector3(0, 1, 0), rotationAroundYAxis, Space.World); // <— This is what makes it work!
+                previousPosition = newPosition;
+            }
+        }
+    }
 
     public void FechaAviso()
     {
