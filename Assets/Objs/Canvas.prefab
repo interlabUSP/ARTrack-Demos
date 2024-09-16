@@ -823,7 +823,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "N\xE3o Conectado :("
+  m_Text: ' :('
 --- !u!1 &4486047214457459732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +1028,7 @@ MonoBehaviour:
   telaNormal: {fileID: 0}
   telaAjuda: {fileID: 0}
   telaAviso: {fileID: 4858926694006665016}
+  cam: {fileID: 0}
 --- !u!1 &4486047214768925010
 GameObject:
   m_ObjectHideFlags: 0
